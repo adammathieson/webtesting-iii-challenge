@@ -8,4 +8,10 @@ describe('<Dashboard />', () => {
         const tree = renderer.create(<Dashboard />).toJSON();
         expect(tree).toMatchSnapshot();
     })
+
+    // it('should default to unlocked', () => {
+    //      const { queryByLabelText } = render(
+    //          <Dashboard />
+    //      )
+    // })
 })
