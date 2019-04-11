@@ -54,10 +54,10 @@ describe('<Display />', () => {
     //     expect(getByText(/unlocked/i)).toHaveClass('led green-led');
     // })
 
-    it('when open use the green-led class', () => {
-        const { getByText } = render(<Display closed={false}/>);
+    // it('when open use the green-led class', () => {
+    //     const { getByText } = render(<Display closed={false}/>);
 
-        expect(getByText(/open/i)).toHaveClass('led green-led');
-    })
+    //     expect(getByText(/open/i)).toHaveClass('led green-led');
+    // })
 
 })
